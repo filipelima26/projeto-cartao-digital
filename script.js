@@ -13,8 +13,8 @@ function toggleMode() {
   html.classList.toggle('light');
   const foto = document.querySelector('#profile img');
   if (html.classList.contains('light')) {
-    foto.setAttribute('src', '/assets/profile-2.png');
+    foto.setAttribute('src', './assets/profile-2.png');
   } else {
-    foto.setAttribute('src', '/assets/profile.png');
+    foto.setAttribute('src', './assets/profile.png');
   }
 }
